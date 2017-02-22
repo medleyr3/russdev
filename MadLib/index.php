@@ -41,7 +41,7 @@ $adjective = ['words']['adjective'] ?? '';
 $noun2 = ['words']['noun2'] ?? '';
 
 
-$storyList = "SELECT  * FROM story2";
+$storyList = "SELECT  * FROM story";
 $storyListStatement = $pdo->prepare($storyList);
 $storyListStatement->execute([]);
 ?>
