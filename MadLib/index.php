@@ -43,7 +43,7 @@ $noun2 = ['words']['noun2'] ?? '';
 
 $storyList = "SELECT  * FROM story";
 $storyListStatement = $pdo->prepare($storyList);
-$storyListStatement->execute([]);
+$storyListStatement->execute([]); //ok
 ?>
 <!DOCTYPE html>
 <html>
